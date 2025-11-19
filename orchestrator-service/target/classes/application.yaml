@@ -1,0 +1,17 @@
+server:
+  port: 8088 # Porta do orquestrador
+
+spring:
+  application:
+    name: orchestrator-service # Nome que aparecerá no Eureka
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true
+
+feign:
+  circuitbreaker:
+    enabled: true
