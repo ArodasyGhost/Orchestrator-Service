@@ -1,0 +1,13 @@
+br\ucsal\orchestrator_service\controller\OrchestrationController.class
+br\ucsal\orchestrator_service\service\OrchestrationService.class
+br\ucsal\orchestrator_service\client\AuthClient.class
+br\ucsal\orchestrator_service\client\ProgramClient.class
+br\ucsal\orchestrator_service\client\DisciplineClient.class
+br\ucsal\orchestrator_service\dto\BibliografiaDTO.class
+br\ucsal\orchestrator_service\client\ProfessorClient.class
+br\ucsal\orchestrator_service\client\BibliographyClient.class
+br\ucsal\orchestrator_service\OrchestratorServiceApplication.class
+br\ucsal\orchestrator_service\dto\ProgramaRequestDTO$ProgramaRequestDTOBuilder.class
+br\ucsal\orchestrator_service\dto\ProgramaRequestDTO.class
+br\ucsal\orchestrator_service\dto\ProgramaCompletoRequestDTO.class
+br\ucsal\orchestrator_service\exception\GlobalExceptionHandler.class

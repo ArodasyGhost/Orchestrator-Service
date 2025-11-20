@@ -1,5 +1,6 @@
 package br.ucsal.orchestrator_service.controller; // <- ATUALIZADO
 
+import br.ucsal.orchestrator_service.service.OrchestrationService;
 import br.ucsal.orchestrator_service.dto.ProgramaCompletoRequestDTO; // <- ATUALIZADO
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
